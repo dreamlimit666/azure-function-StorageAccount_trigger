@@ -12,23 +12,6 @@
 host.json 配置
 host.json 是 Azure Functions 的全局配置文件。以下是本專案的 host.json 文件及其詳細說明：
 
-###############################################################
-{
-  "version": "2.0",
-  "logging": {
-      "applicationInsights": {
-          "samplingSettings": {
-              "isEnabled": true
-          }
-      }
-  },
-  "extensionBundle": {
-      "id": "Microsoft.Azure.Functions.ExtensionBundle",
-      "version": "[2.*, 3.0.0)"
-  }
-}
-
-###############################################################
 
 設置說明：
 version: 表示 Function 的版本。此處設置為 2.0，表示該應用使用 Azure Functions 2.x 版本。
